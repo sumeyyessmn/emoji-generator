@@ -112,3 +112,177 @@
     transition: 1s;
     
 }
+
+/* Mobile */
+@media (max-width:480px){
+.container{
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 1rem;
+}
+.color-generate-btn{
+    padding: 5px 5px;
+    font-size: 0.5rem;
+}
+.emoji{
+    width: 120px;
+    height: 120px;
+    font-size: 2rem;
+}
+.night-light{
+    font-size: 1rem;
+    margin-right: 120px;
+    margin-top: 20px;    
+}
+.area{
+    width: 75px;
+    height: 20px;
+}
+#light{
+    font-size: 1rem;
+}
+
+}
+
+/* Extra small devices */
+@media (min-width:481px) and (max-width:767px){
+    .container{
+        width: 250px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .color-generate-btn{
+        padding: 10px 10px;
+        font-size: 0.8rem;
+    }
+    .emoji{
+        width: 150px;
+        height: 150px;
+        font-size: 2rem;
+    }
+}
+
+/* Small tablets */
+@media (min-width:768px) and (max-width:991px){
+    .container{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .color-generate-btn{
+        padding: 10px 10px;
+        font-size: 0.8rem;
+    }
+    .emoji{
+        width: 180px;
+        height: 180px;
+        font-size: 3rem;
+    }
+    .night-light{
+        font-size: 2rem;
+        margin-top: 20px;    
+    }
+    .area{
+        width: 100px;
+        height: 35px;
+    }
+    #light{
+        font-size: 1.2rem;
+        margin-right: 5%;
+    }
+}
+
+/* Large tablets/laptops */
+@media (min-width:992px) and (max-width:1199px){
+    .container{
+        width: 400px;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .color-generate-btn{
+        padding: 15px 15px;
+        font-size: 1rem;
+    }
+    .emoji{
+        width: 200px;
+        height: 200px;
+        font-size: 3rem;
+    }
+    .night-light{
+        margin-right: 10%;
+    }
+}
+
+/* Desktops */
+@media (min-width:1200px) and (max-width:1919px){
+    .container{
+        width: 550px;
+        height: 450px;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .color-generate-btn{
+        padding: 15px 25px;
+        font-size: 1.2rem;
+    }
+    .emoji{
+        width: 200px;
+        height: 200px;
+        font-size: 3rem;
+    }
+    .night-light{
+        margin-right: 10%;
+    }
+}
+
+/* Extra large screens */
+@media (min-width:1920px) {
+    .container{
+        width: 800px;
+        height: 700px;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .color-generate-btn{
+        padding: 20px 25px;
+        font-size: 2rem;
+    }
+    .emoji{
+        width: 400px;
+        height: 400px;
+        font-size: 5rem;
+    }
+    .night-light{
+        margin-right: 10%;
+        font-size: 3rem;
+    }
+    .area{
+        width: 180px;
+        height: 55px;
+    }
+    #light{
+        font-size: 2rem;
+        margin-right: 30%;
+    }
+}
