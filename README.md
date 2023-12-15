@@ -1,5 +1,5 @@
 # emoji-generator app
-HTML, CSS ve Javascript ile oluşturduğum uygulama bütün ekranlar için duyarlıdır.
+HTML, CSS ve Javascript ile oluşturduğum uygulama responsive bir tasarıma sahiptir. 
 ## DEMO
  <b>click here </b> <br> 
  https://emoji-generator-sumeyye.netlify.app/
